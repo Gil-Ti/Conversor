@@ -2,7 +2,7 @@ import PyPDF2
 import re
 
 
-pdf_file = open('seu_arquivo.pdf', 'rb')
+pdf_file = open('arquivo.pdf', 'rb')
 
 read_pdf = PyPDF2.PdfFileReader(pdf_file)
 
@@ -17,7 +17,6 @@ verificar_dados = ''.join(dados_da_página)
 
 # remove quebra de linha
 verificar_dados = re.sub('n', '', verificar_dados)
-print("Após eliminar as quebras")
 print(verificar_dados)
 
 print("10 primeiras linhas")
