@@ -11,19 +11,18 @@
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
 
 # Descrição do Projerto
 
-Sistema em Python com o objetivo de converter tabelas em PDF (Portable Document Format) para o formato XLSX.
+Sistema em Python com o objetivo de converter tabelas em PDF para o formato XLSX.
+
+Extrair tabelas de um arquivo PDF nem sempre é uma tarefa fácil. O conversor construído em Python permite extrair todas as tabelas de um arquivo PDF e salvá-las individualmente em pastas de trabalho diferentes. Isso permite a exclusão de tabelas desnecessárias e a fácil manipulação das tabelas importantes em softwares com o Excel. 
+Como exemplo foi utilizado um arquivo com as demonstrações contábeis da Vale. Poderia ser utilizado qualquer relatório financeiro ou estudos que contenham tabelas no PDF.
 
 # Tecnologias utilizadas
 * Python
-* HTML
-* CSS
+
 
 # Pessoas Desenvolvedoras do Projeto
 
