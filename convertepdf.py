@@ -1,8 +1,8 @@
 import tabula
 import pandas as pd
 
-# Lê o PDF usando a biblioteca tabula
-dfs = tabula.read_pdf("PDF/ResultadoVale.pdf", pages="all")
+# Leitura das tabelas do PDF usando a biblioteca tabula
+dfs = tabula.read_pdf("PDF/Seu_PDF-Aqui", pages="all")
 
 # Loop para cada dataframe na lista
 for i, df in enumerate(dfs):
